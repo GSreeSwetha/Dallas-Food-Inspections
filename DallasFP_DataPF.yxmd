@@ -1,0 +1,744 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="163" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>True</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="67" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\srees\AppData\Local\Temp\Engine_6680_4d01b7715606764ea3ab553541fa5bc2_\Engine_6680_9ab0716ea821604dafe34a14c5a7323e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="281" y="54" width="445" height="313" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 12</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="498" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Street Unit=False,Street Type=False,Street Direction=False,Street Name=False,Street Number=False,Inspection Type=False,Inspection Date=False,Street Address=False,Violation Memo - 4=False,Violation Description - 5=False,Inspection Score=True,Zip Code=False,Violation Detail - 1=False,Violation Points - 1=False,Violation Detail - 4=False,Violation Memo - 1=False,Violation Description - 2=False,Violation Points - 2=False,Violation Detail - 2=False,Violation Memo - 2=False,Violation Description - 3=False,Violation Points - 3=False,Violation Detail - 3=False,Violation Memo - 3=False,Violation Description - 1=False,Violation Detail - 5=False,Violation Points - 11=False,Violation Detail - 11=False,Violation Description - 7=False,Violation Points - 8=False,Violation Description - 8=False,Violation Memo - 7=False,Violation Detail - 7=False,Violation Points - 7=False,Violation Description - 6=False,Violation Memo - 6=False,Violation Detail - 6=False,Violation Points - 6=False,Violation Memo - 8=False,Violation Memo - 11=False,Violation Memo - 5=False,Violation Memo - 9=False,Violation Description - 9=False,Violation Points - 9=False,Violation Detail - 9=False,Violation Points - 5=False,Violation Description - 10=False,Violation Points - 10=False,Violation Detail - 10=False,Violation Memo - 10=False,Violation Description - 11=False,Violation Description - 4=False,Violation Detail - 8=False,Restaurant Name=False,Violation Points - 4=False,Violation Description - 12=False,Violation Detail - 19=False,Violation Description - 13=False,Violation Detail - 13=False,Violation Memo - 13=False,Violation Description - 14=False,Violation Points - 14=False,Violation Detail - 14=False,Violation Memo - 14=False,Violation Description - 15=False,Violation Points - 15=False,Violation Detail - 15=False,Violation Memo - 15=False,Violation Memo - 12=False,Violation Description - 16=False,Violation Detail - 16=False,Violation Memo - 16=False,Violation Description - 17=False,Violation Points - 17=False,Violation Detail - 17=False,Violation Memo - 17=False,Violation Description - 18=False,Violation Points - 18=False,Violation Detail - 18=False,Violation Memo - 18=False,Violation Description - 19=False,Violation Points - 19=False,Violation Points - 16=False,Violation Memo - 19=False,Violation Points - 20=False,Lat Long Location=False,Violation Points - 13=False,Violation Detail - 12=False,Violation Description - 20=False,Violation Detail - 20=False,Violation  Memo - 20=False,Violation Description - 21=False,Violation Points - 21=False,Violation Detail - 21=False,Violation Memo - 21=False,Violation Description - 22=False,Violation Points - 22=False,Violation Detail - 22=False,Violation Memo - 22=False,Violation Description - 23=False,Violation Points - 23=False,Violation Detail - 23=False,Violation Memo - 23=False,Violation Description - 24=False,Violation Points - 24=False,Violation Detail - 24=False,Violation Memo - 24=False,Violation Description - 25=False,Violation Points - 25=False,Violation Detail - 25=False,Violation Memo - 25=False,Inspection Month=False,Inspection Year=False,Violation Points - 12=False</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\srees\AppData\Local\Temp\Engine_6680_4d01b7715606764ea3ab553541fa5bc2_\Engine_6680_5188af21a8a8284eafdd17f2b7fb1017~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="283" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\srees\AppData\Local\Temp\Engine_6680_4d01b7715606764ea3ab553541fa5bc2_\Engine_6680_ea17e48e9ee69d44ab4e505749303c3f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="642" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\srees\AppData\Local\Temp\Engine_6680_4d01b7715606764ea3ab553541fa5bc2_\Engine_6680_e3753c997dd33940b85b977254cbb5fa~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="306" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Secondary Breed" selected="False" />
+                <SelectField field="Primary Breed" selected="False" />
+                <SelectField field="Species" selected="False" />
+                <SelectField field="Animal's Name" selected="False" />
+                <SelectField field="License Number" selected="False" />
+                <SelectField field="License Issue Date" selected="False" />
+                <SelectField field="ZIP Code" selected="False" />
+                <SelectField field="Street Unit" selected="True" type="Int16" size="2" />
+                <SelectField field="Street Type" selected="True" type="String" size="254" />
+                <SelectField field="Street Direction" selected="True" type="String" size="254" />
+                <SelectField field="Street Name" selected="True" type="String" size="254" />
+                <SelectField field="Street Number" selected="True" type="Int16" size="2" />
+                <SelectField field="Inspection Type" selected="True" type="String" size="254" />
+                <SelectField field="Inspection Date" selected="True" type="DateTime" size="19" />
+                <SelectField field="Street Address" selected="True" type="String" size="254" />
+                <SelectField field="Violation Memo - 4" selected="True" />
+                <SelectField field="Violation Description - 5" selected="True" />
+                <SelectField field="Inspection Score" selected="True" type="Int16" size="2" />
+                <SelectField field="Zip Code" selected="True" type="Int64" size="8" />
+                <SelectField field="Violation Detail - 1" selected="True" />
+                <SelectField field="Violation Points - 1" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 4" selected="True" />
+                <SelectField field="Violation Memo - 1" selected="True" />
+                <SelectField field="Violation Description - 2" selected="True" />
+                <SelectField field="Violation Points - 2" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 2" selected="True" />
+                <SelectField field="Violation Memo - 2" selected="True" />
+                <SelectField field="Violation Description - 3" selected="True" />
+                <SelectField field="Violation Points - 3" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 3" selected="True" />
+                <SelectField field="Violation Memo - 3" selected="True" />
+                <SelectField field="Violation Description - 1" selected="True" />
+                <SelectField field="Violation Detail - 5" selected="True" />
+                <SelectField field="Violation Points - 11" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 11" selected="True" />
+                <SelectField field="Violation Description - 7" selected="True" />
+                <SelectField field="Violation Points - 8" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Description - 8" selected="True" />
+                <SelectField field="Violation Memo - 7" selected="True" />
+                <SelectField field="Violation Detail - 7" selected="True" />
+                <SelectField field="Violation Points - 7" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Description - 6" selected="True" />
+                <SelectField field="Violation Memo - 6" selected="True" />
+                <SelectField field="Violation Detail - 6" selected="True" />
+                <SelectField field="Violation Points - 6" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Memo - 8" selected="True" />
+                <SelectField field="Violation Memo - 11" selected="True" />
+                <SelectField field="Violation Memo - 5" selected="True" />
+                <SelectField field="Violation Memo - 9" selected="True" />
+                <SelectField field="Violation Description - 9" selected="True" />
+                <SelectField field="Violation Points - 9" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 9" selected="True" />
+                <SelectField field="Violation Points - 5" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Description - 10" selected="True" />
+                <SelectField field="Violation Points - 10" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 10" selected="True" />
+                <SelectField field="Violation Memo - 10" selected="True" />
+                <SelectField field="Violation Description - 11" selected="True" />
+                <SelectField field="Violation Description - 4" selected="True" />
+                <SelectField field="Violation Detail - 8" selected="True" />
+                <SelectField field="Restaurant Name" selected="True" type="String" size="254" />
+                <SelectField field="Violation Points - 4" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Description - 12" selected="True" />
+                <SelectField field="Violation Detail - 19" selected="True" />
+                <SelectField field="Violation Description - 13" selected="True" />
+                <SelectField field="Violation Detail - 13" selected="True" />
+                <SelectField field="Violation Memo - 13" selected="True" />
+                <SelectField field="Violation Description - 14" selected="True" />
+                <SelectField field="Violation Points - 14" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 14" selected="True" />
+                <SelectField field="Violation Memo - 14" selected="True" />
+                <SelectField field="Violation Description - 15" selected="True" />
+                <SelectField field="Violation Points - 15" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 15" selected="True" />
+                <SelectField field="Violation Memo - 15" selected="True" />
+                <SelectField field="Violation Memo - 12" selected="True" />
+                <SelectField field="Violation Description - 16" selected="True" />
+                <SelectField field="Violation Detail - 16" selected="True" />
+                <SelectField field="Violation Memo - 16" selected="True" />
+                <SelectField field="Violation Description - 17" selected="True" />
+                <SelectField field="Violation Points - 17" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 17" selected="True" />
+                <SelectField field="Violation Memo - 17" selected="True" />
+                <SelectField field="Violation Description - 18" selected="True" />
+                <SelectField field="Violation Points - 18" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 18" selected="True" />
+                <SelectField field="Violation Memo - 18" selected="True" />
+                <SelectField field="Violation Description - 19" selected="True" />
+                <SelectField field="Violation Points - 19" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Points - 16" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Memo - 19" selected="True" />
+                <SelectField field="Violation Points - 20" selected="True" type="Int16" size="2" />
+                <SelectField field="Lat Long Location" selected="True" />
+                <SelectField field="Violation Points - 13" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 12" selected="True" />
+                <SelectField field="Violation Description - 20" selected="True" />
+                <SelectField field="Violation Detail - 20" selected="True" />
+                <SelectField field="Violation  Memo - 20" selected="True" />
+                <SelectField field="Violation Description - 21" selected="True" />
+                <SelectField field="Violation Points - 21" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 21" selected="True" />
+                <SelectField field="Violation Memo - 21" selected="True" />
+                <SelectField field="Violation Description - 22" selected="True" />
+                <SelectField field="Violation Points - 22" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 22" selected="True" />
+                <SelectField field="Violation Memo - 22" selected="True" />
+                <SelectField field="Violation Description - 23" selected="True" />
+                <SelectField field="Violation Points - 23" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 23" selected="True" />
+                <SelectField field="Violation Memo - 23" selected="True" />
+                <SelectField field="Violation Description - 24" selected="True" />
+                <SelectField field="Violation Points - 24" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 24" selected="True" />
+                <SelectField field="Violation Memo - 24" selected="True" />
+                <SelectField field="Violation Description - 25" selected="True" />
+                <SelectField field="Violation Points - 25" selected="True" type="Int16" size="2" />
+                <SelectField field="Violation Detail - 25" selected="True" />
+                <SelectField field="Violation Memo - 25" selected="True" />
+                <SelectField field="Inspection Month" selected="True" />
+                <SelectField field="Inspection Year" selected="True" />
+                <SelectField field="Violation Points - 12" selected="True" type="Int16" size="2" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="390" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Street Type" selected="True" />
+                <Field field="Street Direction" selected="True" />
+                <Field field="Street Name" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Street Address" selected="True" />
+                <Field field="Violation Memo - 4" selected="True" />
+                <Field field="Violation Description - 5" selected="True" />
+                <Field field="Violation Detail - 1" selected="True" />
+                <Field field="Violation Detail - 4" selected="True" />
+                <Field field="Violation Memo - 1" selected="True" />
+                <Field field="Violation Description - 2" selected="True" />
+                <Field field="Violation Detail - 2" selected="True" />
+                <Field field="Violation Memo - 2" selected="True" />
+                <Field field="Violation Description - 3" selected="True" />
+                <Field field="Violation Detail - 3" selected="True" />
+                <Field field="Violation Memo - 3" selected="True" />
+                <Field field="Violation Description - 1" selected="True" />
+                <Field field="Violation Detail - 5" selected="True" />
+                <Field field="Violation Detail - 11" selected="True" />
+                <Field field="Violation Description - 7" selected="True" />
+                <Field field="Violation Description - 8" selected="True" />
+                <Field field="Violation Memo - 7" selected="True" />
+                <Field field="Violation Detail - 7" selected="True" />
+                <Field field="Violation Description - 6" selected="True" />
+                <Field field="Violation Memo - 6" selected="True" />
+                <Field field="Violation Detail - 6" selected="True" />
+                <Field field="Violation Memo - 8" selected="True" />
+                <Field field="Violation Memo - 11" selected="True" />
+                <Field field="Violation Memo - 5" selected="True" />
+                <Field field="Violation Memo - 9" selected="True" />
+                <Field field="Violation Description - 9" selected="True" />
+                <Field field="Violation Detail - 9" selected="True" />
+                <Field field="Violation Description - 10" selected="True" />
+                <Field field="Violation Detail - 10" selected="True" />
+                <Field field="Violation Memo - 10" selected="True" />
+                <Field field="Violation Description - 11" selected="True" />
+                <Field field="Violation Description - 4" selected="True" />
+                <Field field="Violation Detail - 8" selected="True" />
+                <Field field="Restaurant Name" selected="True" />
+                <Field field="Violation Description - 12" selected="True" />
+                <Field field="Violation Detail - 19" selected="True" />
+                <Field field="Violation Description - 13" selected="True" />
+                <Field field="Violation Detail - 13" selected="True" />
+                <Field field="Violation Memo - 13" selected="True" />
+                <Field field="Violation Description - 14" selected="True" />
+                <Field field="Violation Detail - 14" selected="True" />
+                <Field field="Violation Memo - 14" selected="True" />
+                <Field field="Violation Description - 15" selected="True" />
+                <Field field="Violation Detail - 15" selected="True" />
+                <Field field="Violation Memo - 15" selected="True" />
+                <Field field="Violation Memo - 12" selected="True" />
+                <Field field="Violation Description - 16" selected="True" />
+                <Field field="Violation Detail - 16" selected="True" />
+                <Field field="Violation Memo - 16" selected="True" />
+                <Field field="Violation Description - 17" selected="True" />
+                <Field field="Violation Detail - 17" selected="True" />
+                <Field field="Violation Memo - 17" selected="True" />
+                <Field field="Violation Description - 18" selected="True" />
+                <Field field="Violation Detail - 18" selected="True" />
+                <Field field="Violation Memo - 18" selected="True" />
+                <Field field="Violation Description - 19" selected="True" />
+                <Field field="Violation Memo - 19" selected="True" />
+                <Field field="Lat Long Location" selected="True" />
+                <Field field="Violation Detail - 12" selected="True" />
+                <Field field="Violation Description - 20" selected="True" />
+                <Field field="Violation Detail - 20" selected="True" />
+                <Field field="Violation  Memo - 20" selected="True" />
+                <Field field="Violation Description - 21" selected="True" />
+                <Field field="Violation Detail - 21" selected="True" />
+                <Field field="Violation Memo - 21" selected="True" />
+                <Field field="Violation Description - 22" selected="True" />
+                <Field field="Violation Detail - 22" selected="True" />
+                <Field field="Violation Memo - 22" selected="True" />
+                <Field field="Violation Description - 23" selected="True" />
+                <Field field="Violation Detail - 23" selected="True" />
+                <Field field="Violation Memo - 23" selected="True" />
+                <Field field="Violation Description - 24" selected="True" />
+                <Field field="Violation Detail - 24" selected="True" />
+                <Field field="Violation Memo - 24" selected="True" />
+                <Field field="Violation Description - 25" selected="True" />
+                <Field field="Violation Detail - 25" selected="True" />
+                <Field field="Violation Memo - 25" selected="True" />
+                <Field field="Inspection Month" selected="True" />
+                <Field field="Inspection Year" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Street Unit" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Street Type" size="4" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Direction" size="1" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Name" size="25" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Street Number" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Inspection Type" size="9" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Date" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="DateTime" />
+                <Field name="Street Address" size="36" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 5" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Score" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Zip Code" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int64" />
+                <Field name="Violation Detail - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 1" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 4" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 1" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 2" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 2" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 2" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 3" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 3" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 3" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 1" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 11" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 7" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 8" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Description - 8" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 7" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 7" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Description - 6" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 6" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 6" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Memo - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 11" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 5" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 9" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 9" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 9" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 5" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Description - 10" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 10" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 10" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 11" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 4" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 8" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Restaurant Name" size="65" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 4" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Description - 12" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 19" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 13" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 13" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 14" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 14" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 14" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 15" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 15" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 15" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 16" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 16" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 17" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 17" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 17" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 17" size="212" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 18" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 18" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 18" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 18" size="230" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 19" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 19" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Points - 16" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Memo - 19" size="245" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 20" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Lat Long Location" size="36" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 13" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 12" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 20" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Detail - 20" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation  Memo - 20" size="247" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 21" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 21" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 21" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 21" size="211" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 22" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 22" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 22" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 23" size="100" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 23" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 23" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 23" size="103" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 24" size="59" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 24" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 24" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 24" size="186" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 25" size="50" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 25" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Violation Detail - 25" size="254" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 25" size="171" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Month" size="8" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Year" size="6" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Violation Points - 12" source="File: C:\Users\srees\Documents\NEU\DADABI\assignments\Dallas food\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DallasFP_DataPF</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="89b6380c-1a33-4fb8-9ad9-9fd1c5ec5023" />
+      <Telemetry>
+        <PreviousWorkflowId value="891424d2-b74f-44d4-abd4-ef7365aad635" />
+        <OriginWorkflowId value="65fdf52f-d5a8-475b-adcd-764939101997" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
